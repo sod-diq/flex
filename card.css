@@ -1,0 +1,67 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+
+}
+.wrapper{
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 50px;
+        
+} 
+.container{
+    display: flex;
+    align-items: center;
+    border: 1px solid mistyrose;
+    width: 60vw;
+    /* height: 80vh; */
+}   
+.card{
+display: flex;
+height: 100%;
+padding: 30px;
+font-family: sans-serif;
+font-size: medium;
+}   
+.last{
+align-items: center;
+display: flex;
+padding: 10px 0px;
+/* border-radius: 3px; */
+}
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%) ;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+
+@media all and (max-width:800px) {
+
+.container{
+    flex-direction: column;
+}
+
+}
+
+
+
+@media all and (max-width:500px) {
+}
